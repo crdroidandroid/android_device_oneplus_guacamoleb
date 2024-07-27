@@ -41,6 +41,12 @@ PRODUCT_PACKAGES += \
 # Play Integrity
 -include vendor/lineage-priv/keys/keys.mk
 
+# Quick Tap
+PRODUCT_COPY_FILES += \
+    device/oneplus/guacamoleb/conf/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
 
