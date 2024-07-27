@@ -38,6 +38,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Play Integrity
+-include vendor/lineage-priv/keys/keys.mk
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
 
