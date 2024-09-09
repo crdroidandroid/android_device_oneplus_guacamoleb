@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "LineageOS/android_device_oneplus_sm8150-common",
+    "target_path": "device/oneplus/sm8150-common"
+  },
+  {
+    "repository": "LineageOS/android_kernel_oneplus_sm8150",
+    "target_path": "kernel/oneplus/sm8150"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_oneplus_guacamoleb",
+    "target_path": "vendor/oneplus/guacamoleb"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_oneplus_sm8150-common",
+    "target_path": "vendor/oneplus/sm8150-common"
+  },
+  {
+    "repository": "LineageOS/android_hardware_oplus",
+    "target_path": "hardware/oplus"
+  }
+]
