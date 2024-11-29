@@ -32,6 +32,12 @@ TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
+# Quick Tap
+PRODUCT_COPY_FILES += \
+    device/oneplus/guacamoleb/conf/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false
+
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
